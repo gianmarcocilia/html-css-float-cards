@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTAINER */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgba(229, 49, 112, 1);
+}
