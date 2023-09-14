@@ -33,21 +33,26 @@ h1 {
     margin-bottom: 40px;
 }
 
+/* SECTION */
+section {
+    text-align: left;
+    color: white;
+}
 /* Columns section */
 
 .row {
-    margin-top: 2em;
-    color: white;
-    
+    margin-top: 2em; 
 }
 
 .column {
     float: left;
     width: calc(100% / 3);
     padding: 0 20px;
-    /* debug */
-    border: 1px solid black;
-    height: 100px;
+}
+
+.column img {
+    height: 120px;
+    float: left;
 }
 
 .clearfix::after {
@@ -57,5 +62,23 @@ h1 {
 }
 
 .card {
-    background-color: rgba(15, 14, 23, 1);
+    background-color: rgba(15, 14, 23, 1); 
+    min-height: 120px;
+}
+
+/* Identity */
+
+.identity {
+    padding: 1em;
+    padding-left: 9em;
+}
+
+.identity h3,
+.identity p {
+    margin-bottom: 10px;
+}
+
+.identity a {
+    text-decoration: none;
+    color: rgba(77, 204, 242, 1);
 }
