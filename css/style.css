@@ -11,7 +11,7 @@ img {
 
 body {
     font-family: 'Fredoka', sans-serif; 
-    margin-top: 20px;
+    padding-top: 2rem;
 }
 
 /* CONTAINER */
@@ -31,4 +31,31 @@ h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 40px;
+}
+
+/* Columns section */
+
+.row {
+    margin-top: 2em;
+    color: white;
+    
+}
+
+.column {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px;
+    /* debug */
+    border: 1px solid black;
+    height: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    background-color: rgba(15, 14, 23, 1);
 }
