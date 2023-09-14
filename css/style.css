@@ -10,21 +10,25 @@ img {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fredoka', sans-serif; 
+    margin-top: 20px;
 }
 
 /* CONTAINER */
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
-/* HEADER */
+/* MAIN */
 
-header {
+main {
     text-align: center;
 }
 
 h1 {
     color: rgba(229, 49, 112, 1);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 40px;
 }
